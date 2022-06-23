@@ -12,7 +12,8 @@ module.exports = {
       desktop: "1200px",
     },
     fontSize: {
-      xl: ["3.5rem", { lineHeight: "4.2rem", letterSpacing: "0em" }],
+      '2xl': ["3.5rem", { lineHeight: "4.2rem", letterSpacing: "0em" }],
+      xl: ["2.5rem", { lineHeight: "3rem", letterSpacing: "0em" }],
       lg: ["2rem", { lineHeight: "2.5rem", letterSpacing: "0em" }],
       md: ["1.125rem", { lineHeight: "1.5rem", letterSpacing: "0em" }],
       base: ["1rem", { lineHeight: "1.5rem", letterSpacing: "0em" }],
