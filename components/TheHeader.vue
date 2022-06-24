@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-200 px-6 py-8 flex items-center justify-between">
+  <header class="sticky top-0 backdrop-blur bg-gray-300/60 px-6 py-8 flex items-center justify-between z-sticky">
     <svg class="w-12 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" > <path d="m23.838 7.14-3.319 3.395 13.498 13.802h-6.64l-10.18-10.409-3.318 3.396 6.86 7.013H14.1l-6.86-7.015 3.32-3.393 3.32-3.394-5.28-5.399H4.695v19.2H0v-24h10.544l4.695 4.8 1.959 2.004 1.96-2.004 1.361-1.39 3.32-3.393 23.455 23.984h-6.637L23.838 7.14Z" /> </svg>
 
     <div class="flex items-center space-x-4 relative">
