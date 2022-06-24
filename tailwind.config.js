@@ -54,7 +54,11 @@ module.exports = {
         900: "#1e3a8a",
       },
     },
-    extend: {},
+    extend: {
+      zIndex: {
+        sticky: 1000,
+      },
+    },
   },
   variants: {
     extend: {},
