@@ -88,6 +88,20 @@
           </div>
           <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
         </article>
+          <article>
+            <div class="space-y-3 mb-4">
+              <h3 class="font-bold">Morf <span class="text-sm font-medium text-auxiliary-alert-dark ml-4 opacity-60 hover:opacity-100 bg-auxiliary-alert-light px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-alert">pausa</span></h3>
+              <p class="font-medium text-sm text-gray-500">O jeito mais fácil de transformar sua database do Notion em um formulário</p>
+            </div>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+          </article>
+          <article>
+            <div class="space-y-3 mb-4">
+              <h3 class="font-bold">Interfy <span class="text-sm font-medium text-auxiliary-error-dark ml-4 opacity-60 hover:opacity-100 bg-auxiliary-error-light px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-error">cancelado</span></h3>
+              <p class="font-medium text-sm text-gray-500">Extensão do Google Chrome para alterar todas as fontes de um site para a fonte Inter</p>
+            </div>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+          </article>
       </div>
     </section>
 
