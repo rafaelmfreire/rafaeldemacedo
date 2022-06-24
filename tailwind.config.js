@@ -53,6 +53,23 @@ module.exports = {
         800: "#1e40af",
         900: "#1e3a8a",
       },
+      auxiliary: {
+        success: {
+          light: '#bbf7d0',
+          DEFAULT: '#22c55e',
+          dark: '#166534'
+        },
+        alert: {
+          light: '#fef08a',
+          DEFAULT: '#eab308',
+          dark: '#854d0e'
+        },
+        error: {
+          light: '#fecaca',
+          DEFAULT: '#dc2626',
+          dark: '#991b1b'
+        },
+      }
     },
     extend: {
       zIndex: {
