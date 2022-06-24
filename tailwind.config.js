@@ -8,8 +8,7 @@ module.exports = {
     screens: {
       mini: "640px",
       tablet: "768px",
-      notebook: "1024px",
-      desktop: "1200px",
+      desktop: "1024px",
     },
     fontSize: {
       '2xl': ["3.5rem", { lineHeight: "4.2rem", letterSpacing: "0em" }],
