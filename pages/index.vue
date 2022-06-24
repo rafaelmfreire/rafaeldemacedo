@@ -26,9 +26,9 @@
         <article>
           <div class="space-y-3 mb-4">
             <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-            <div class="space-x-4">
+            <div class="space-x-4 flex items-center">
               <span class="text-gray-500">19 Jun, 2022</span>
-              <span class="relative text-xsp font-medium uppercase pl-9 before:left-1 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-0.5 before:rounded-full before:absolute">Tutorial</span>
+              <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
             </div>
             <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
           </div>
@@ -37,9 +37,9 @@
         <article>
           <div class="space-y-3 mb-4">
             <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-            <div class="space-x-4">
+            <div class="space-x-4 flex items-center">
               <span class="text-gray-500">19 Jun, 2022</span>
-              <span class="relative text-xsp font-medium uppercase pl-9 before:left-1 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-0.5 before:rounded-full before:absolute">Tutorial</span>
+              <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
             </div>
             <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
           </div>
@@ -48,9 +48,9 @@
         <article>
           <div class="space-y-3 mb-4">
             <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-            <div class="space-x-4">
+            <div class="space-x-4 flex items-center">
               <span class="text-gray-500">19 Jun, 2022</span>
-              <span class="relative text-xsp font-medium uppercase pl-9 before:left-1 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-0.5 before:rounded-full before:absolute">Tutorial</span>
+              <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
             </div>
             <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
           </div>
@@ -59,9 +59,9 @@
         <article>
           <div class="space-y-3 mb-4">
             <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-            <div class="space-x-4">
+            <div class="space-x-4 flex items-center">
               <span class="text-gray-500">19 Jun, 2022</span>
-              <span class="relative text-xsp font-medium uppercase pl-9 before:left-1 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-0.5 before:rounded-full before:absolute">Tutorial</span>
+              <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
             </div>
             <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
           </div>
