@@ -2,9 +2,8 @@
   <main class="bg-gray-200 px-6">
     <!-- HERO -->
     <section class="py-14">
-      <h1 class="text-xl font-semibold text-center mb-6">Sou um Desenvolvedor Front-End vivendo em Natal/RN - Brasil</h1>
-      <p class="text-sm text-center font-medium">Também me interesso pelo Back-End e pelo Week-End 😉️</p>
-      <p class="text-sm text-center font-medium mb-14">Já falei que também curto UI Design e Design de Marcas?</p>
+      <h1 class="text-xl font-semibold text-center mb-6">Desenvolvedor Front-End vivendo em Natal/RN - Brasil</h1>
+      <p class="text-sm text-center font-medium mb-14">Também gosto do Back-End e do Week-End 😉️</p>
       <p class="text-center font-medium mb-4">Interessado no meu trabalho?</p>
       <nuxt-link to="/projetos" class="flex items-center justify-center space-x-4 text-center font-medium text-blue-700">
         <span>Ver projetos</span>
