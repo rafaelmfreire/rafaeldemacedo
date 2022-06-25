@@ -70,8 +70,7 @@ module.exports = {
           DEFAULT: '#dc2626',
           dark: '#991b1b'
         },
-      }
-    },
+      },
     },
     groups: ["base", "li"],
     extend: {
@@ -80,9 +79,6 @@ module.exports = {
         popover: 1001,
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [
     plugin(({ addVariant, theme }) => {
