@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  .top-narrow {
+    @apply py-4;
+  }
+  .top-tall {
+    @apply py-8;
+  }
   @font-face {
     font-family: "GeneralSans";
     src: url("../fonts/GeneralSans-Extralight.woff2") format("woff2"),
