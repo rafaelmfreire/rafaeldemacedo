@@ -73,6 +73,7 @@ module.exports = {
     extend: {
       zIndex: {
         sticky: 1000,
+        popover: 1001,
       },
     },
   },
