@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "./components/**/*.{js,vue}",
@@ -70,6 +72,8 @@ module.exports = {
         },
       }
     },
+    },
+    groups: ["base", "li"],
     extend: {
       zIndex: {
         sticky: 1000,
@@ -80,5 +84,15 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(({ addVariant, theme }) => {
+      const groups = theme("groups") || [];
+
+      groups.forEach((group) => {
+        addVariant(`group-${group}-hover`, () => {
+          return `:merge(.group-${group}):hover &`;
+        });
+      });
+    }),
+  ],
 };
