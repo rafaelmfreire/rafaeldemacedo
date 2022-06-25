@@ -4,14 +4,22 @@
 
       <!-- HERO -->
       <section class="py-14">
-        <h1 class="text-xl font-semibold text-center mb-6 tablet:text-2xl tablet:text-left">Desenvolvedor Front-End <span class="inline mini:text-xl mini:block">vivendo em Natal/RN - Brasil</span></h1>
-        <div class="tablet:grid grid-cols-2 mt-12">
-          <p class="text-sm text-center font-medium mb-14 mini:text-base tablet:order-2 tablet:text-left">Também gosto do Back-End <br class="hidden tablet:block">e do Week-End 😉️</p>
-          <div>
-            <p class="text-center font-medium mb-4 tablet:text-left">Interessado no meu trabalho?</p>
-            <nuxt-link to="/projetos" class="flex items-center justify-center space-x-4 text-center font-medium text-blue-700 tablet:text-left tablet:justify-start">
-              <span>Ver projetos</span>
-              <svg width="18" height="16" class="fill-current text-blue-700" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
+        <h1 class="text-xl font-semibold text-center mb-6 tablet:text-2xl mini:text-left">Desenvolvedor Front-End <span class="inline mini:text-xl mini:block desktop:text-2xl">vivendo em Natal/RN - Brasil</span></h1>
+        <div class="mini:grid grid-cols-2 mt-6 gap-8">
+          <p class="text-sm text-center font-medium mb-14 mini:text-base mini:order-2 mini:text-left">Também gosto do Back-End <br class="hidden mini:block">e do Week-End 😉️</p>
+          <div class="space-y-2">
+            <p class="text-center font-medium mb-4 mini:text-left">Interessado no meu trabalho?</p>
+            <nuxt-link to="/projetos" class="group flex mini:inline-block px-6 py-3 justify-center text-center font-medium bg-blue-600 text-white rounded-md mini:text-left mini:justify-start hover:bg-blue-600/90 transition-colors duration-300 ease-in-out">
+              <div class="flex items-center space-x-4">
+                <span>Entre em contato</span>
+                <svg width="18" height="16" class="fill-current text-blue-300 group-hover:translate-x-1 transition-all duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
+              </div>
+            </nuxt-link>
+            <nuxt-link to="/projetos" class="group flex mini:inline-block px-6 py-3 justify-center text-center font-medium text-blue-700 mini:text-left mini:justify-start hover:text-blue-800">
+              <div class="flex items-center space-x-4">
+                <span>Ver projetos</span>
+                <svg width="18" height="16" class="fill-current text-blue-500 group-hover:text-blue-600 group-hover:translate-x-1 transition-all duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
+              </div>
             </nuxt-link>
           </div>
         </div>
@@ -27,51 +35,18 @@
             <h2 class="text-lg text-center font-medium tablet:text-left">Posts recentes</h2>
             <nuxt-link to="/blog" class="hidden tablet:block text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left">Ver tudo no blog</nuxt-link>
           </div>
-          <p class="text-center tablet:text-left">Compartilhando ideias e tutoriais sobre técnicas e ferramentas que gosto ou que estou aprendendo e sobre os produtos que estou desenvolvendo</p>
+          <p class="text-center tablet:text-left">Compartilhando ideias e tutoriais sobre técnicas e ferramentas que gosto ou <br class="hidden tablet:block">que estou aprendendo e sobre os produtos que estou desenvolvendo</p>
           <nuxt-link to="/blog" class="block tablet:hidden text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left">Ver tudo no blog</nuxt-link>
         </div>
         <div class="grid grid-cols-1 space-y-14">
-          <article>
+          <article v-for="n in 4" :key="n">
             <div class="space-y-3 mb-4">
-              <h3 class="text-md font-semibold">Versão beta do Morf</h3>
+              <h3 class="text-md font-semibold tablet:text-lg">Versão beta do Morf</h3>
               <div class="space-x-4 flex items-center">
                 <span class="text-gray-500">19 Jun, 2022</span>
                 <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
               </div>
-              <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
-          </article>
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-              <div class="space-x-4 flex items-center">
-                <span class="text-gray-500">19 Jun, 2022</span>
-                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
-              </div>
-              <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
-          </article>
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-              <div class="space-x-4 flex items-center">
-                <span class="text-gray-500">19 Jun, 2022</span>
-                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
-              </div>
-              <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
-          </article>
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="text-md font-semibold">Versão beta do Morf</h3>
-              <div class="space-x-4 flex items-center">
-                <span class="text-gray-500">19 Jun, 2022</span>
-                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
-              </div>
-              <p class="font-medium text-gray-600">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
+              <p class="font-medium text-gray-600 !leading-7 tablet:text-md">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
             </div>
             <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
           </article>
@@ -93,27 +68,36 @@
           <p class="text-center tablet:text-left">Alguns dos projetos pessoais que criei <span class="block">Uns ativos, outros aposentados, em pausa ou encerrados</span></p>
           <nuxt-link to="/blog" class="block tablet:hidden text-center text-xsp font-semibold uppercase text-blue-600">Ver todos</nuxt-link>
         </div>
-        <div class="grid grid-cols-1 space-y-14">
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="font-bold">Tudo novo no front <span class="text-xs uppercase font-semibold text-auxiliary-success-dark ml-4 opacity-60 hover:opacity-100 bg-auxiliary-success-light px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-success">ativo</span></h3>
-              <p class="font-medium text-sm text-gray-500">Como criar um site do zero com TailwindCSS configurando um Design System</p>
+        <div class="grid grid-cols-1 gap-6 mini:grid mini:grid-cols-2 mini:space-y-0">
+          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
+            <div class="space-y-6 mb-8">
+              <div class="flex items-center justify-between">
+                <h3 class="font-bold">Tudo novo no front</h3>
+                <label class="inline text-xs uppercase font-semibold text-auxiliary-success-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-success-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-success">ativo</label>
+              </div>
+              <p class="font-medium text-sm text-gray-500 leading-5">Como criar um site do zero com TailwindCSS configurando um Design System</p>
             </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
           </article>
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="font-bold">Morf <span class="text-xs uppercase font-semibold text-auxiliary-alert-dark ml-4 opacity-60 hover:opacity-100 bg-auxiliary-alert-light px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-alert">pausa</span></h3>
-              <p class="font-medium text-sm text-gray-500">O jeito mais fácil de transformar sua database do Notion em um formulário</p>
+          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
+            <div class="space-y-6 mb-8">
+              <div class="flex items-center justify-between">
+                <h3 class="font-bold">Morf</h3>
+                <label class="inline text-xs uppercase font-semibold text-auxiliary-alert-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-alert-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-alert">pausa</label>
+              </div>
+              <p class="font-medium text-sm text-gray-500 leading-5">O jeito mais fácil de transformar sua database do Notion em um formulário</p>
             </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
           </article>
-          <article>
-            <div class="space-y-3 mb-4">
-              <h3 class="font-bold">Interfy <span class="text-xs uppercase font-semibold text-auxiliary-error-dark ml-4 opacity-60 hover:opacity-100 bg-auxiliary-error-light px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-error">cancelado</span></h3>
-              <p class="font-medium text-sm text-gray-500">Extensão do Google Chrome para alterar todas as fontes de um site para a fonte Inter</p>
+          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
+            <div class="space-y-6 mb-8">
+              <div class="flex items-center justify-between">
+                <h3 class="font-bold">Interfy</h3>
+                <label class="inline text-xs uppercase font-semibold text-auxiliary-error-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-error-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-error">cancelado</label>
+              </div>
+              <p class="font-medium text-sm text-gray-500 leading-5">Extensão do Google Chrome para alterar todas as fontes de um site para a fonte Inter</p>
             </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
           </article>
         </div>
       </section>
