@@ -8,22 +8,30 @@
 		
 			<nav class="hidden tablet:block">
 				<ul class="flex items-center space-x-9">
-					<li class="text-sm font-medium">Projetos</li>
-					<li class="text-sm font-medium">Blog</li>
-					<li class="text-sm font-medium">Sobre</li>
-					<li class="text-sm font-medium">Contato</li>
+					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+						<nuxt-link to="/projetos">Projetos</nuxt-link>
+					</li>
+					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+						<nuxt-link to="/blog">Blog</nuxt-link>
+					</li>
+					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+						<nuxt-link to="/sobre">Sobre</nuxt-link>
+					</li>
+					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+						<nuxt-link to="/contato">Contato</nuxt-link>
+					</li>
 				</ul>
 			</nav>
-		<div class="flex items-center justify-end max-w-[205px] w-full relative group">
-		  <p class="text-xs font-medium text-right w-full pr-5">Oi, eu sou Rafael</p>
-			<label class="absolute left-0 whitespace-nowrap bg-[#5AF284] text-[#1B6437] px-3 py-1 rounded-full text-xs font-medium opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100">Aberto à oportunidades</label>
-			<button class="relative inline-flex" @click="showSocial = !showSocial">
-				<img class="relative rounded-full min-w-[40px] w-10 h-10 group-hover:cursor-pointer" src="~/assets/images/profile-picture.jpg" alt="Foto de perfil de Rafael" />
-				<span class="flex absolute h-3 w-3 top-0 right-0 group-hover:cursor-pointer">
-					<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00FF47] opacity-75"></span>
-					<span class="relative inline-flex rounded-full h-3 w-3 bg-[#00FF47] bg-opacity-100"></span>
-				</span>
-			</button>
+			<div class="flex items-center justify-end max-w-[205px] w-full relative group">
+				<p class="text-xs font-medium text-right w-full pr-5">Oi, eu sou Rafael</p>
+				<label class="absolute left-0 whitespace-nowrap bg-[#5AF284] text-[#1B6437] px-3 py-1 rounded-full text-xs font-medium opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100">Aberto à oportunidades</label>
+				<button class="relative inline-flex" @click="showSocial = !showSocial">
+					<img class="relative rounded-full min-w-[40px] w-10 h-10 group-hover:cursor-pointer" src="~/assets/images/profile-picture.jpg" alt="Foto de perfil de Rafael" />
+					<span class="flex absolute h-3 w-3 top-0 right-0 group-hover:cursor-pointer">
+						<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00FF47] opacity-75"></span>
+						<span class="relative inline-flex rounded-full h-3 w-3 bg-[#00FF47] bg-opacity-100"></span>
+					</span>
+				</button>
 
 				<Transition enter-active-class="transition ease-out duration-100" enter-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
 					<div class="absolute top-[60px] z-popover" v-if="showSocial">
@@ -61,8 +69,8 @@
 						</ul>
 					</div>
 				</Transition>
+			</div>
 		</div>
-	</div>
   </header>
 </template>
 <script>
