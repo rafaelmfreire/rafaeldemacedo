@@ -2,13 +2,13 @@
 	<footer>
 		<div class="bg-gray-600 py-10 px-6">
 			<div class="container mx-auto flex flex-col items-center tablet:flex-row tablet:justify-between tablet:space-y-0 space-y-12">
-				<div class="flex items-center">
-					<svg class="text-gray-50 w-12 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" > <path d="m23.838 7.14-3.319 3.395 13.498 13.802h-6.64l-10.18-10.409-3.318 3.396 6.86 7.013H14.1l-6.86-7.015 3.32-3.393 3.32-3.394-5.28-5.399H4.695v19.2H0v-24h10.544l4.695 4.8 1.959 2.004 1.96-2.004 1.361-1.39 3.32-3.393 23.455 23.984h-6.637L23.838 7.14Z" /> </svg>
+				<nuxt-link to="/" class="group flex items-center">
+					<svg class="text-gray-50 w-12 h-6 group-hover:text-gray-300 transition-colors duration-300 ease-in-out" fill="currentColor" xmlns="http://www.w3.org/2000/svg" > <path d="m23.838 7.14-3.319 3.395 13.498 13.802h-6.64l-10.18-10.409-3.318 3.396 6.86 7.013H14.1l-6.86-7.015 3.32-3.393 3.32-3.394-5.28-5.399H4.695v19.2H0v-24h10.544l4.695 4.8 1.959 2.004 1.96-2.004 1.361-1.39 3.32-3.393 23.455 23.984h-6.637L23.838 7.14Z" /> </svg>
 					<div class="ml-1">
-						<p class="text-gray-200 text-xs font-medium tracking-wide uppercase">Rafael de Macêdo</p>
-						<p class="text-gray-200 text-xs">Desenvolvedor & Designer</p>
+						<p class="text-gray-200 group-hover:text-gray-300 transition-colors duration-300 ease-in-out text-xs font-medium tracking-wide uppercase">Rafael de Macêdo</p>
+						<p class="text-gray-200 group-hover:text-gray-300 transition-colors duration-300 ease-in-out text-xs">Desenvolvedor & Designer</p>
 					</div>
-				</div>
+				</nuxt-link>
 				<nav class="tablet:hidden">
 					<ul class="flex text-gray-50 text-sm font-medium space-x-9">
 						<li>Projetos</li>
