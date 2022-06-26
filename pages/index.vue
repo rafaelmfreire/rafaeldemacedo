@@ -33,7 +33,7 @@
         <div class="space-y-4 mb-14">
           <div class="tablet:flex items-center justify-between">
             <h2 class="text-lg text-center font-medium tablet:text-left">Posts recentes</h2>
-            <nuxt-link to="/blog" class="hidden tablet:block text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left">Ver tudo no blog</nuxt-link>
+            <nuxt-link to="/blog" class="hidden tablet:block text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left border-b border-opacity-0 border-b-blue-500 hover:border-opacity-100 transition-all duration-300 ease-in-out">Ver tudo no blog</nuxt-link>
           </div>
           <p class="text-center tablet:text-left">Compartilhando ideias e tutoriais sobre técnicas e ferramentas que gosto ou <br class="hidden tablet:block">que estou aprendendo e sobre os produtos que estou desenvolvendo</p>
           <nuxt-link to="/blog" class="block tablet:hidden text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left">Ver tudo no blog</nuxt-link>
@@ -48,7 +48,7 @@
               </div>
               <p class="font-medium text-gray-600 !leading-7 tablet:text-md">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
             </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Leia mais</nuxt-link>
+            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase border-b border-opacity-0 border-b-blue-500 hover:border-opacity-100 transition-all duration-300 ease-in-out">Leia mais</nuxt-link>
           </article>
         </div>
       </section>
@@ -63,7 +63,7 @@
         <div class="space-y-4 mb-14">
           <div class="tablet:flex items-center justify-between">
             <h2 class="text-lg text-center font-medium tablet:text-left">Projetos</h2>
-            <nuxt-link to="/blog" class="hidden tablet:block text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left">Ver todos</nuxt-link>
+            <nuxt-link to="/blog" class="hidden tablet:block text-center text-xsp font-semibold uppercase text-blue-600 tablet:text-left border-b border-opacity-0 border-b-blue-500 hover:border-opacity-100 transition-all duration-300 ease-in-out">Ver todos</nuxt-link>
           </div>
           <p class="text-center tablet:text-left">Alguns dos projetos pessoais que criei <span class="block">Uns ativos, outros aposentados, em pausa ou encerrados</span></p>
           <nuxt-link to="/blog" class="block tablet:hidden text-center text-xsp font-semibold uppercase text-blue-600">Ver todos</nuxt-link>
@@ -119,9 +119,9 @@
           <div class="col-span-2 mini:col-span-1 space-y-4">
             <p class="font-medium">Olá, sou Rafael de Macêdo. Possuo formação e experiência no desenvolvimento de sites, e sou designer autodidata, com foco em UI e design de marcas.</p>
             <p class="font-medium mb-8">Também tenho interesse em outras áreas como a fotografia e ultimamente o 3D.</p>
-            <nuxt-link to="/sobre" class="flex items-center space-x-4 font-medium text-blue-700">
+            <nuxt-link to="/sobre" class="group flex items-center space-x-4 font-medium text-blue-700 hover:text-blue-800">
               <span>Veja minha história improvável</span>
-              <svg width="18" height="16" class="fill-current text-blue-700" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
+              <svg width="18" height="16" class="fill-current text-blue-500 group-hover:text-blue-600 group-hover:translate-x-1 transition-all duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
             </nuxt-link>
           </div>
         </div>
