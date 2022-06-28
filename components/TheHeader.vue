@@ -83,7 +83,7 @@ export default {
 	mounted() {
 		window.addEventListener("scroll", function (e) {
 			var top = document.getElementById("topbar");
-			if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+			if (document.documentElement.scrollTop > 100 || document.body.scrollTop > window.innerHeight) {
 				top.classList.add("top-narrow");
 				top.classList.remove("top-tall");
 			} else {

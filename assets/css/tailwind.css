@@ -4,10 +4,10 @@
 
 @layer base {
   .top-narrow {
-    @apply py-4;
+    @apply py-2;
   }
   .top-tall {
-    @apply py-8;
+    @apply py-6;
   }
   @font-face {
     font-family: "GeneralSans";
