@@ -3,6 +3,7 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: [
     "./components/**/*.{js,vue}",
+    "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./nuxt.config.js",
   ],
