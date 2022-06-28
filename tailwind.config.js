@@ -79,9 +79,28 @@ module.exports = {
         sticky: 1000,
         popover: 1001,
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              color: "#1d4ed8",
+              "&:hover": {
+                color: "#1e40af",
+              },
+            },
+            code: {
+              color: "#1d4ed8",
+              backgroundColor: "#eff6ff",
+              padding: "4px",
+              borderRadius: "0.25rem",
+            },
+          },
+        },
+      },
     },
   },
   plugins: [
+    require("@tailwindcss/typography"),
     plugin(({ addVariant, theme }) => {
       const groups = theme("groups") || [];
 
