@@ -14,7 +14,7 @@ module.exports = {
       desktop: "1024px",
     },
     fontSize: {
-      '2xl': ["3.5rem", { lineHeight: "4.2rem", letterSpacing: "0em" }],
+      "2xl": ["3.5rem", { lineHeight: "4.2rem", letterSpacing: "0em" }],
       xl: ["2.5rem", { lineHeight: "3rem", letterSpacing: "0em" }],
       lg: ["2rem", { lineHeight: "2.5rem", letterSpacing: "0em" }],
       md: ["1.125rem", { lineHeight: "1.5rem", letterSpacing: "0em" }],
@@ -57,19 +57,19 @@ module.exports = {
       },
       auxiliary: {
         success: {
-          light: '#bbf7d0',
-          DEFAULT: '#22c55e',
-          dark: '#166534'
+          light: "#bbf7d0",
+          DEFAULT: "#22c55e",
+          dark: "#166534",
         },
         alert: {
-          light: '#fef08a',
-          DEFAULT: '#eab308',
-          dark: '#854d0e'
+          light: "#fef08a",
+          DEFAULT: "#eab308",
+          dark: "#854d0e",
         },
         error: {
-          light: '#fecaca',
-          DEFAULT: '#dc2626',
-          dark: '#991b1b'
+          light: "#fecaca",
+          DEFAULT: "#dc2626",
+          dark: "#991b1b",
         },
       },
     },
