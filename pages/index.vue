@@ -35,16 +35,20 @@
           <nuxt-link to="/blog" class="tablet:hidden text-center tablet:text-left btn-link">Ver tudo no blog</nuxt-link>
         </div>
         <div class="grid grid-cols-1 space-y-14">
-          <article v-for="n in 4" :key="n">
+          <article v-for="post in posts" :key="post.title">
             <div class="space-y-3 mb-4">
-              <h3 class="text-md font-semibold tablet:text-lg">Versão beta do Morf</h3>
+              <nuxt-link :to="`/blog/${post.slug}`" class="hover:underline">
+                <h3 class="text-md font-semibold tablet:text-lg">{{ post.title }}</h3>
+              </nuxt-link>
               <div class="space-x-4 flex items-center">
-                <span class="text-gray-500">19 Jun, 2022</span>
-                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">Tutorial</span>
+                <time class="text-gray-500">{{ new Date(post.createdAt).toLocaleDateString() }}</time>
+                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">{{ post.tag }}</span>
               </div>
-              <p class="font-medium text-gray-600 !leading-7 tablet:text-md">Dia 1º de agosto irei lançar a versão beta do Morf. Decidi torná-lo um projeto open source para aqueles que quiserem se aventurar na programação e instalar por conta própria. Para aqueles que não tem tempo ou não quiserem, ofereço o serviço de instalação.</p>
+              <p class="font-medium text-gray-600 !leading-7 tablet:text-md">
+                <nuxt-content :document="{ body: post.excerpt }" />
+              </p>
             </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase border-b border-opacity-0 border-b-blue-500 hover:border-opacity-100 transition-all duration-300 ease-in-out">Leia mais</nuxt-link>
+            <nuxt-link :to="`/blog/${post.slug}`" class="text-xsp font-semibold text-blue-600 uppercase border-b border-opacity-0 border-b-blue-500 hover:border-opacity-100 transition-all duration-300 ease-in-out">Leia mais</nuxt-link>
           </article>
         </div>
       </section>
@@ -132,5 +136,14 @@
 export default {
   layout: 'default',
   name: "IndexPage",
+  async asyncData({ $content, params }) {
+    const posts = await $content('blog')
+      .sortBy('createdAt', 'desc')
+      .limit(3)
+      .fetch()
+    return {
+      posts
+    }
+  },
 };
 </script>
