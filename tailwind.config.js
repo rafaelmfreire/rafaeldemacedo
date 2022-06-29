@@ -83,11 +83,14 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            color: "#44403c",
             a: {
               color: "#1d4ed8",
               "&:hover": {
                 color: "#1e40af",
+                textDecorationThickness: "2px"
               },
+              textUnderlineOffset: "1px",
             },
             code: {
               color: "#1d4ed8",
