@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+li .nuxt-link-active {
+  @apply text-blue-600;
+}
+
 @layer base {
   .top-narrow {
     @apply py-2;
