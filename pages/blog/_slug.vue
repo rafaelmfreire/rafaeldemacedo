@@ -4,7 +4,7 @@
 			<article>
 				<time :datetime="post.createdAt" class="text-gray-500 text-sm font-medium mb-4 block">{{ postDate }}</time>
 				<h1 class="text-lg font-bold mb-8">{{ post.title }}</h1>
-				<nuxt-content class="prose prose-stone font-medium max-w-none prose-pre:border prose-pre:border-gray-200" :document="post" />
+				<nuxt-content class="prose prose-stone font-medium max-w-none prose-pre:border prose-pre:border-gray-300" :document="post" />
 			</article>
 		</div>
 	</main>
