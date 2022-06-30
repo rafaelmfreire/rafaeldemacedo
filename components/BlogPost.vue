@@ -24,7 +24,7 @@ export default {
 	computed: {
 		classObject: function () {
 			return {
-				'py-5 px-8 rounded-md cursor-pointer hover:bg-gray-200/30': this.hover,
+				'py-5 px-8 rounded-md cursor-pointer hover:bg-gray-200/30 transition-colors duration-200 ease-in-out': this.hover,
 			}
 		}
 	}
