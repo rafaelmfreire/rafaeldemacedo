@@ -57,36 +57,7 @@
           <nuxt-link to="/blog" class="tablet:hidden text-center tablet:text-left btn-link">Ver todos</nuxt-link>
         </div>
         <div class="grid grid-cols-1 gap-6 mini:grid mini:grid-cols-2 mini:space-y-0">
-          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
-            <div class="space-y-6 mb-8">
-              <div class="flex items-center justify-between">
-                <h3 class="font-bold">Tudo novo no front</h3>
-                <label class="inline text-xs uppercase font-semibold text-auxiliary-success-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-success-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-success">ativo</label>
-              </div>
-              <p class="font-medium text-sm text-gray-500 leading-5">Como criar um site do zero com TailwindCSS configurando um Design System</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
-          </article>
-          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
-            <div class="space-y-6 mb-8">
-              <div class="flex items-center justify-between">
-                <h3 class="font-bold">Morf</h3>
-                <label class="inline text-xs uppercase font-semibold text-auxiliary-alert-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-alert-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-alert">pausa</label>
-              </div>
-              <p class="font-medium text-sm text-gray-500 leading-5">O jeito mais fácil de transformar sua database do Notion em um formulário</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
-          </article>
-          <article class="group border border-gray-300 bg-gray-100/40 rounded-md p-6 flex flex-col justify-between hover:bg-gray-100/70 hover:cursor-pointer transition-colors duration-300 ease-in-out">
-            <div class="space-y-6 mb-8">
-              <div class="flex items-center justify-between">
-                <h3 class="font-bold">Interfy</h3>
-                <label class="inline text-xs uppercase font-semibold text-auxiliary-error-dark ml-4 opacity-60 group-hover:opacity-100 bg-auxiliary-error-light group-hover:transition-colors duration-300 ease-in-out px-3 py-1 rounded-full before:mr-2 before:content-[''] before:h-2 before:w-2 before:left-1 before:inline-block before:rounded-full before:bg-auxiliary-error">cancelado</label>
-              </div>
-              <p class="font-medium text-sm text-gray-500 leading-5">Extensão do Google Chrome para alterar todas as fontes de um site para a fonte Inter</p>
-            </div>
-            <nuxt-link to="/" class="text-xsp font-semibold text-blue-600 uppercase">Saiba mais</nuxt-link>
-          </article>
+          <Project v-for="project in projects" :key="project.slug" :project="project" />
         </div>
       </section>
 
@@ -129,8 +100,12 @@ export default {
       .sortBy('createdAt', 'desc')
       .limit(3)
       .fetch()
+    const projects = await $content('projetos')
+      .sortBy('createdAt', 'desc')
+      .limit(4)
+      .fetch()
     return {
-      posts
+      posts, projects
     }
   },
 };
