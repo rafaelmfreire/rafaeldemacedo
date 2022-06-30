@@ -37,14 +37,14 @@
           <nuxt-link to="/blog" class="tablet:hidden text-center tablet:text-left btn-link">Ver tudo no blog</nuxt-link>
         </div>
         <div class="grid grid-cols-1 space-y-14">
-          <article v-for="post in posts" :key="post.title">
-            <div class="space-y-3 mb-4">
-              <nuxt-link :to="`/blog/${post.slug}`" class="hover:underline">
-                <h3 class="text-md font-semibold tablet:text-lg">{{ post.title }}</h3>
+          <article v-for="post in posts" :key="post.title" class="relative">
+            <div class="mb-4">
+              <nuxt-link :to="`/blog/${post.slug}`" class="hover:underline mb-3 block">
+                <h3 class="text-md font-semibold">{{ post.title }}</h3>
               </nuxt-link>
-              <div class="space-x-4 flex items-center">
-                <time class="text-gray-500">{{ new Date(post.createdAt).toLocaleDateString() }}</time>
-                <span class="relative text-xsp font-medium uppercase pl-10 before:left-2 before:content-[''] before:h-2 before:w-2 before:bg-gray-300 before:top-1 before:rounded-full before:absolute">{{ post.tag }}</span>
+              <div class="relative desktop:absolute desktop:bg-gray-100/20 desktop:rounded-md desktop:border desktop:border-gray-400/40 desktop:p-3 desktop:top-0 desktop:left-auto desktop:right-full space-x-4 desktop:space-x-0 mb-4 desktop:mb-0 desktop:space-y-2 mr-6 flex desktop:flex-col items-center desktop:items-end">
+                <time class="text-gray-600">{{ new Date(post.createdAt).toLocaleDateString() }}</time>
+                <span class="relative text-xsp font-medium uppercase">{{ post.tag }}</span>
               </div>
               <p class="font-medium text-gray-600 !leading-7 tablet:text-md">
                 <nuxt-content :document="{ body: post.excerpt }" />
