@@ -9,7 +9,7 @@
           <p class="text-sm text-center font-medium mb-14 mini:text-base mini:order-2 mini:text-left">Também gosto do Back-End <br class="hidden mini:block">e do Week-End 😉️</p>
           <div class="space-y-2">
             <p class="text-center font-medium mb-4 mini:text-left">Interessado no meu trabalho?</p>
-            <nuxt-link to="/projetos" class="group flex mini:inline-flex items-center space-x-4 px-6 py-3 justify-center text-center mini:text-left mini:justify-start btn-primary">
+            <nuxt-link to="/contato" class="group flex mini:inline-flex items-center space-x-4 px-6 py-3 justify-center text-center mini:text-left mini:justify-start btn-primary">
               <span>Entre em contato</span>
               <svg width="18" height="16" class="btn-primary--icon" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
             </nuxt-link>
@@ -51,7 +51,7 @@
         <div class="space-y-4 mb-14 flex flex-col items-center tablet:items-start">
           <div class="tablet:flex tablet:w-full items-center justify-between">
             <h2 class="text-lg text-center font-medium tablet:text-left">Projetos</h2>
-            <nuxt-link to="/blog" class="hidden tablet:block text-center tablet:text-left btn-link">Ver todos</nuxt-link>
+            <nuxt-link to="/projetos" class="hidden tablet:block text-center tablet:text-left btn-link">Ver todos</nuxt-link>
           </div>
           <p class="text-center tablet:text-left">Alguns dos projetos pessoais que criei <span class="block">Uns ativos, outros aposentados, em pausa ou encerrados</span></p>
           <nuxt-link to="/blog" class="tablet:hidden text-center tablet:text-left btn-link">Ver todos</nuxt-link>
