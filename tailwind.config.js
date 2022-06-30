@@ -77,8 +77,9 @@ module.exports = {
     groups: ["base", "li"],
     extend: {
       zIndex: {
-        sticky: 1000,
-        popover: 1001,
+        cardLink: 1000,
+        sticky: 1001,
+        popover: 1002,
       },
       typography: {
         DEFAULT: {
