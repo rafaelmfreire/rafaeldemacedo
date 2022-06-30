@@ -18,8 +18,8 @@ export default {
 	},
 	computed: {
     postDate: function () {
-			var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-      return new Date(this.post.createdAt).toLocaleDateString('pt-br', options);
+		var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+		return new Date(this.post.createdAt).toLocaleDateString('pt-br', options);
     }
   }
 }
