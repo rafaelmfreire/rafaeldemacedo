@@ -2,7 +2,7 @@
   <header id="topbar" :class="whiteBar ? 'bg-gray-100/60 border-b border-b-gray-200' : 'bg-gray-300/60'" class="sticky border-b border-b-gray-300 top-0 backdrop-blur-md px-6 z-sticky top-tall transition-all duration-300 ease-in-out">
     <div class="container mx-auto flex items-center justify-between tablet:justify-start">
 			<!-- RM LOGO -->
-			<nuxt-link to="/" class="flex-shrink-0 mr-8">
+			<nuxt-link to="/" class="flex-shrink-0 mr-16">
 				<svg class="w-12 h-6 hover:text-gray-600 transition-colors duration-200 ease-in-out" fill="currentColor" xmlns="http://www.w3.org/2000/svg" > <path d="m23.838 7.14-3.319 3.395 13.498 13.802h-6.64l-10.18-10.409-3.318 3.396 6.86 7.013H14.1l-6.86-7.015 3.32-3.393 3.32-3.394-5.28-5.399H4.695v19.2H0v-24h10.544l4.695 4.8 1.959 2.004 1.96-2.004 1.361-1.39 3.32-3.393 23.455 23.984h-6.637L23.838 7.14Z" /> </svg>
 			</nuxt-link>
 		
@@ -36,7 +36,7 @@
 				<Transition enter-active-class="transition ease-out duration-100" enter-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
 					<div class="absolute top-[60px] z-popover" v-if="showSocial">
 						<div class="rounded-lg bg-white p-6 border border-gray-300">
-							<div class="block tablet:hidden">
+							<div class="block mini:hidden">
 								<nav>
 									<ul class="flex flex-col items-start space-y-6">
 										<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
