@@ -9,7 +9,7 @@ export default {
       lang: "en",
     },
     bodyAttrs: {
-      class: "font-general text-gray-900 text-base",
+      class: "font-general text-gray-900 text-base bg-body",
     },
     meta: [
       { charset: "utf-8" },
