@@ -1,5 +1,5 @@
 <template>
-	<main class="bg-gray-100 px-6 flex flex-1 dot-pattern">
+	<main class="bg-gray-100 px-6 flex flex-1 dot-pattern selection:bg-blue-300 selection:text-blue-800">
 		<div class="max-w-3xl w-full mx-auto py-14">
 			<article>
 				<time :datetime="post.createdAt" class="text-gray-500 text-sm font-medium mb-4 block">{{ postDate }}</time>
