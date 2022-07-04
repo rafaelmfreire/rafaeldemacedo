@@ -1,12 +1,12 @@
 <template>
   <header id="topbar" :class="whiteBar ? 'bg-gray-100/60 border-b border-b-gray-200' : 'bg-gray-300/60'" class="sticky border-b border-b-gray-300 top-0 backdrop-blur-md px-6 z-sticky top-tall transition-all duration-300 ease-in-out">
-    <div class="container mx-auto flex items-center justify-between">
+    <div class="container mx-auto flex items-center justify-between tablet:justify-start">
 			<!-- RM LOGO -->
-			<nuxt-link to="/">
+			<nuxt-link to="/" class="flex-shrink-0 mr-8">
 				<svg class="w-12 h-6 hover:text-gray-600 transition-colors duration-200 ease-in-out" fill="currentColor" xmlns="http://www.w3.org/2000/svg" > <path d="m23.838 7.14-3.319 3.395 13.498 13.802h-6.64l-10.18-10.409-3.318 3.396 6.86 7.013H14.1l-6.86-7.015 3.32-3.393 3.32-3.394-5.28-5.399H4.695v19.2H0v-24h10.544l4.695 4.8 1.959 2.004 1.96-2.004 1.361-1.39 3.32-3.393 23.455 23.984h-6.637L23.838 7.14Z" /> </svg>
 			</nuxt-link>
 		
-			<nav class="hidden tablet:block">
+			<nav class="hidden mini:block flex-grow">
 				<ul class="flex items-center space-x-9">
 					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 						<nuxt-link to="/projetos">Projetos</nuxt-link>
@@ -23,7 +23,7 @@
 				</ul>
 			</nav>
 			<div class="flex items-center justify-end max-w-[205px] w-full relative group">
-				<p class="text-xs font-medium text-right w-full pr-5">Oi, eu sou Rafael</p>
+				<!-- <p class="text-xs font-medium text-right w-full pr-5">Oi, eu sou Rafael</p> -->
 				<label class="absolute left-0 whitespace-nowrap bg-[#5AF284] text-[#1B6437] px-3 py-1 rounded-full text-xs font-medium opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100">Aberto à oportunidades</label>
 				<button class="relative inline-flex" @click="showSocial = !showSocial">
 					<img class="relative rounded-full min-w-[40px] w-10 h-10 group-hover:cursor-pointer" src="~/assets/images/profile-picture.jpg" alt="Foto de perfil de Rafael" />

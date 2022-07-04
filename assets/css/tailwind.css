@@ -147,7 +147,7 @@ li .nuxt-link-active {
   }
 
   .btn-secondary {
-    @apply flex items-center space-x-4 font-medium text-blue-700 hover:text-blue-800;
+    @apply flex items-center space-x-4 font-medium text-blue-700 hover:text-blue-800 rounded-md;
   }
   .btn-secondary--icon {
     @apply fill-current text-blue-500 group-hover:text-blue-600 group-hover:translate-x-1 transition-all duration-300 ease-in-out;
