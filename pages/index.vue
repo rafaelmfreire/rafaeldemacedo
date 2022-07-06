@@ -4,7 +4,10 @@
 
       <!-- HERO -->
       <section class="py-6 mini:py-14 max-w-3xl w-full mx-auto space-y-8 mini:space-y-12 desktop:space-y-16">
-        <h1 class="text-base mini:text-md tablet:text-lg font-medium text-gray-400 text-center mb-6">Oi, sou Rafael de Macêdo <span class="mt-4 font-semibold text-lg mini:text-xl tablet:text-2xl text-blue-600 block">Desenvolvedor Front-End</span></h1>
+        <div class="spacey-6">
+          <h1 class="text-base mini:text-md tablet:text-lg font-medium text-gray-400 text-center mb-6">Oi, sou Rafael de Macêdo <span class="mt-4 font-semibold text-lg mini:text-xl tablet:text-2xl text-blue-600 block">Desenvolvedor Full Stack</span></h1>
+          <p class="text-center text-md">Construindo sites e aplicações usando as ferramentas mais modernas</p>
+        </div>
         <ul class="grid grid-cols-1 mini:grid-cols-3 gap-4 mini:gap-8 desktop:gap-16 text-sm tablet:text-base">
           <li class="flex items-center space-x-4 font-medium group">
             <div class="p-2 desktop:p-3 rounded-md bg-gray-100/30 group-hover:bg-blue-50/40 border border-gray-300 group-hover:border-blue-200 transition duration-300 ease-in-out">
@@ -16,7 +19,7 @@
             <div class="p-2 desktop:p-3 rounded-md bg-gray-100/30 group-hover:bg-blue-50/40 border border-gray-300 group-hover:border-blue-200 transition duration-300 ease-in-out">
               <svg class="w-5 h-5 desktop:w-6 desktop:h-6 text-gray-500 group-hover:text-blue-500 transition duration-300 ease-in-out" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
             </div>
-            <span class="leading-5 text-gray-600">Gosto do Back-End e do Week-End</span>
+            <span class="leading-5 text-gray-600">Também gosto do Week-End</span>
           </li>
           <li class="flex items-center space-x-4 font-medium group">
             <div class="p-2 desktop:p-3 rounded-md bg-gray-100/30 group-hover:bg-blue-50/40 border border-gray-300 group-hover:border-blue-200 transition duration-300 ease-in-out">
@@ -94,9 +97,8 @@
               <p class="font-medium">Olá, sou Rafael de Macêdo. Possuo formação e experiência no desenvolvimento de sites, e sou designer autodidata, com foco em UI e design de marcas.</p>
               <p class="font-medium">Também tenho interesse em outras áreas como a fotografia e ultimamente o 3D.</p>
             </div>
-            <nuxt-link to="/sobre" class="group btn-secondary">
+            <nuxt-link to="/sobre" class="inline-flex w-full justify-center text-center mini:w-auto mini:text-left mini:justify-start px-6 py-3 group btn-secondary">
               <span>Veja minha história improvável</span>
-              <svg width="18" height="16" class="btn-secondary--icon" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H0v2h1V7Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.929A1 1 0 1 0 9.93 2.343L15.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 9h16V7H1v2Z" /></svg>
             </nuxt-link>
           </div>
         </div>
