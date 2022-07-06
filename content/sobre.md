@@ -1,17 +1,17 @@
 ---
 title: Rafael de Macêdo
 ---
-## Desenvolvedor Full Stack vivendo em Natal/RN - Brasil
-## Formação e experiência em desenvolvimento de sites e sistemas
-## Designer autodidata
+## Desenvolvedor Full Stack & Designer autodidata
+
+Possuo formação e experiência em desenvolvimento de sites e sistemas.
 
 Comecei essa jornada há mais de 15 anos, na minha primeira formação em Desenvolvimento Web. Em seguida, iniciei Análise e Desenvolvimento de Sistemas. Ambos no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - IFRN.
 
 Essa experiência me permitiu trabalhar desenvolvendo e mantendo sistemas de grande porte, como sistemas de ponto de vendas completos, e a nível nacional como o Sistema de Informação e Comunicação do Conselho de Arquitetura e Urbanismo - SICCAU/BR.
 
-Atualmente, estou há 10 anos trabalhando no serviço público. Durante esse tempo sempre desenvolvi projetos pessoais, alguns deles inclusive para auxiliar e agilizar meu trabalho. 
+Atualmente, estou há 10 anos trabalhando no serviço público. Durante esse tempo, sempre desenvolvi projetos pessoais, alguns deles inclusive para auxiliar e agilizar meu trabalho. 
 
-Trabalho com Laravel PHP, VueJS, Nuxt, InertiaJS e TailwindCSS (grande fã), mas não somente. Já desenvolvi vários projetos pessoais integrando Vue e Laravel com InertiaJS. Você pode ver alguns deles na <nuxt-link to="/projetos">página de Projetos</nuxt-link>.
+Trabalho com HTML/CSS/JS, PHP, Laravel, VueJS, Nuxt, InertiaJS e TailwindCSS (grande fã), mas não somente. Já desenvolvi vários projetos pessoais integrando Vue e Laravel com InertiaJS. Você pode ver alguns deles na <nuxt-link to="/projetos">página de Projetos</nuxt-link> ou no <a href="https://github.com/rafaelmfreire" target="_blank">meu GitHub <ExternalLinkIcon /></a>.
 
 ### Cursos
 Sempre me interessei muito pela parte de design também. Nesse meio tempo, estudei bastante sobre UI e design de marcas. Abaixo alguns cursos isolados que fiz:
