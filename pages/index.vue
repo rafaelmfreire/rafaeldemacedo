@@ -47,7 +47,7 @@
             <h2 class="text-lg text-center font-medium tablet:text-left">Posts recentes</h2>
             <nuxt-link to="/blog" class="hidden tablet:block text-center tablet:text-left btn-link">Ver tudo no blog</nuxt-link>
           </div>
-          <p class="text-center tablet:text-left">Compartilhando ideias e tutoriais sobre técnicas e ferramentas que gosto ou <br class="hidden tablet:block">que estou aprendendo e sobre os produtos que estou desenvolvendo</p>
+          <p class="text-center tablet:text-left">Compartilhando ideias e tutoriais sobre técnicas e ferramentas que uso <br class="hidden tablet:block">ou aprendendo, sobre os produtos que estou desenvolvendo e vida pessoal</p>
           <nuxt-link to="/blog" class="tablet:hidden text-center tablet:text-left btn-link">Ver tudo no blog</nuxt-link>
         </div>
         <div class="grid grid-cols-1 space-y-14">
