@@ -99,6 +99,15 @@ module.exports = {
               padding: "4px",
               borderRadius: "0.25rem",
             },
+            blockquote: {
+              fontStyle: "normal",
+            },
+            'blockquote p:first-of-type::before': {
+              content: '',
+            },
+            'blockquote p:last-of-type::after': {
+              content: '',
+            },
           },
         },
       },
