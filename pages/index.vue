@@ -28,14 +28,14 @@
             <span class="leading-5 text-gray-600">Aberto à oportunidades</span>
           </li>
         </ul>
-        <div class="flex flex-col justify-center mini:flex-row items-center mt-6 gap-4">
+        <!-- <div class="flex flex-col justify-center mini:flex-row items-center mt-6 gap-4">
           <nuxt-link to="/contato" class="group flex items-center w-full space-x-4 justify-center text-center mini:inline mini:w-auto mini:text-left mini:justify-start btn-primary">
             <span>Entre em contato</span>
           </nuxt-link>
           <nuxt-link to="/projetos" class="flex w-full justify-center text-center mini:inline mini:w-auto mini:text-left mini:justify-start px-6 py-3 group btn-secondary">
             <span>Ver projetos</span>
           </nuxt-link>
-        </div>
+        </div> -->
       </section>
 
       <!-- DIVIDER -->
