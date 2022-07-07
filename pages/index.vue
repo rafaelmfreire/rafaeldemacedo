@@ -6,7 +6,7 @@
       <section class="py-6 mini:py-14 max-w-3xl w-full mx-auto space-y-8 mini:space-y-12 desktop:space-y-16">
         <div class="spacey-6">
           <h1 class="text-base mini:text-md tablet:text-lg font-medium text-gray-400 text-center mb-6">Oi, sou Rafael de Macêdo <span class="mt-4 font-semibold text-lg mini:text-xl tablet:text-2xl text-blue-600 block">Desenvolvedor Full Stack</span></h1>
-          <p class="text-center text-md">Construindo sites e aplicações usando as ferramentas mais modernas</p>
+          <p class="text-center text-md">Construindo sites usando as ferramentas mais modernas</p>
         </div>
         <ul class="grid grid-cols-1 mini:grid-cols-3 gap-4 mini:gap-8 desktop:gap-16 text-sm tablet:text-base">
           <li class="flex items-center space-x-4 font-medium group">
