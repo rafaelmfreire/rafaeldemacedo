@@ -19,7 +19,7 @@
             <div class="p-2 desktop:p-3 rounded-md bg-gray-100/30 group-hover:bg-blue-50/40 border border-gray-300 group-hover:border-blue-200 transition duration-300 ease-in-out">
               <svg class="w-5 h-5 desktop:w-6 desktop:h-6 text-gray-500 group-hover:text-blue-500 transition duration-300 ease-in-out" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
             </div>
-            <span class="leading-5 text-gray-600">Também gosto do Week-End</span>
+            <span class="leading-5 text-gray-600">FrontEnd, BackEnd e WeekEnd</span>
           </li>
           <li class="flex items-center space-x-4 font-medium group">
             <div class="p-2 desktop:p-3 rounded-md bg-gray-100/30 group-hover:bg-blue-50/40 border border-gray-300 group-hover:border-blue-200 transition duration-300 ease-in-out">
