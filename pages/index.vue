@@ -44,7 +44,7 @@
       </div>
 
       <!-- POSTS -->
-      <section class="py-14 max-w-3xl w-full mx-auto">
+      <!-- <section class="py-14 max-w-3xl w-full mx-auto">
         <div class="space-y-4 mb-14 flex flex-col items-center tablet:items-start">
           <div class="tablet:flex tablet:w-full items-center justify-between">
             <h2 class="text-lg text-center font-medium tablet:text-left">Posts recentes</h2>
@@ -56,7 +56,7 @@
         <div class="grid grid-cols-1 space-y-14">
           <BlogPost v-for="post in posts" :post="post" :key="post.slug" />
         </div>
-      </section>
+      </section> -->
       
       <!-- DIVIDER -->
       <div class="max-w-3xl mx-auto">

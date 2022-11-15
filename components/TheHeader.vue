@@ -11,9 +11,9 @@
 					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 						<nuxt-link to="/projetos">Projetos</nuxt-link>
 					</li>
-					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+					<!-- <li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 						<nuxt-link to="/blog">Blog</nuxt-link>
-					</li>
+					</li> -->
 					<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 						<nuxt-link to="/sobre">Sobre</nuxt-link>
 					</li>
@@ -42,9 +42,9 @@
 										<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 											<nuxt-link to="/projetos">Projetos</nuxt-link>
 										</li>
-										<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
+										<!-- <li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 											<nuxt-link to="/blog">Blog</nuxt-link>
-										</li>
+										</li> -->
 										<li class="text-sm font-medium hover:text-blue-500 transition-colors duration-300 ease-in-out">
 											<nuxt-link to="/sobre">Sobre</nuxt-link>
 										</li>
