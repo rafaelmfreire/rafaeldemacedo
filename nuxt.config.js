@@ -39,7 +39,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    '@nuxtjs/sitemap',
   ],
+
+  sitemap: {
+    hostname: "https://rafaeldemacedo.com",
+    lastmod: "2022-11-16",
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
