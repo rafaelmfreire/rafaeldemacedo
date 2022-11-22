@@ -1,5 +1,5 @@
 <template>
-  <header id="topbar" :class="whiteBar ? 'bg-gray-100/60 border-b border-b-gray-200' : 'bg-gray-300/60'" class="sticky border-b border-b-gray-300 top-0 backdrop-blur-md px-6 z-sticky top-tall transition-all duration-300 ease-in-out">
+  <header id="topbar" :class="whiteBar ? 'bg-gray-100/60 border-b border-b-gray-200' : 'bg-gray-300/60'" class="sticky border-b border-b-gray-300 top-0 px-6 z-sticky top-tall transition-all duration-300 ease-in-out" style="	backdrop-filter: blur(12px);">
     <div class="container mx-auto flex items-center justify-between tablet:justify-start">
 			<!-- RM LOGO -->
 			<nuxt-link to="/" class="flex-shrink-0 mr-16">
