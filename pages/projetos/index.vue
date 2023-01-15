@@ -1,5 +1,5 @@
 <template>
-	<main class="bg-gray-200 px-6">
+	<main class="bg-gray-200 px-6 flex flex-1">
 		<div class="container mx-auto">
 			<section class="py-14 max-w-3xl w-full mx-auto">
 				<div class="space-y-4 mb-20 flex flex-col items-center">

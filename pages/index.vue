@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-gray-200 px-6">
+  <main class="bg-gray-200 px-6 flex flex-1">
     <div class="container mx-auto">
 
       <!-- HERO -->
@@ -98,7 +98,7 @@
               <p class="font-medium">Também tenho interesse em outras áreas como a fotografia e ultimamente o 3D.</p>
             </div>
             <nuxt-link to="/sobre" class="inline-flex w-full justify-center text-center mini:w-auto mini:text-left mini:justify-start px-6 py-3 group btn-secondary">
-              <span>Veja minha história improvável</span>
+              <span>Saiba a história toda</span>
             </nuxt-link>
           </div>
         </div>
