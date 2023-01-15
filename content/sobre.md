@@ -20,10 +20,4 @@ Sempre me interessei muito pela parte de design também. Nesse meio tempo, estud
 - <a target="_blank" href="https://www.flux-academy.com/courses/learn-web-design-become-a-professional">Web Design: Becoming a professional <ExternalLinkIcon /></a> com Ran Segall, da Flux Academy
 - <a target="_blank" href="https://idclass.com.br/">ID Class <ExternalLinkIcon /></a> com Marcelo Kimura
 
-### Vida pessoal
-
-Nasci e morei toda minha vida em Natal/RN, lugar conhecido por suas praias e paisagens bonitas, boa hospitalidade e comida boa. 
-
-Mas, depois que visitei Portugal em 2018, a vontade de voltar pra ficar é grande. Ainda mais depois que descobri a minha ascendência portuguesa e de minha esposa, estamos inclusive em processo de obter a cidadania.
-
 <!-- Acompanhe minha saga no <nuxt-link to="/blog">blog</nuxt-link> ou me siga nas redes sociais 😃 -->
