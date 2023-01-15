@@ -46,7 +46,7 @@ export default {
 
   sitemap: {
     hostname: "https://rafaeldemacedo.com",
-    lastmod: "2022-11-16",
+    lastmod: "2022-12-17",
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
